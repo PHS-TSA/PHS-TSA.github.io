@@ -1,0 +1,19 @@
+a {
+    text-decoration: none;
+    display: inlineBlock;
+    color: white;
+    margin-bottom: zero;
+    background-color: rebeccapurple;
+    border: zero;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 0.625em 2em;
+    
+    border-radius: 0.2em;
+}
+a::hover {
+    background-color: rebeccapurple;
+    -webkit-backdrop-filter: blur(0.625em);
+    backdrop-filter: blur(0.625em);
+    
+}
